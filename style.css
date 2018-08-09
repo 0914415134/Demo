@@ -15,7 +15,7 @@
 .text-slide {
     margin-left: 800px;
     width: 29%;
-    margin-top: -345px;
+    margin-top: -385px;
 }
 .card.card-blue {
     border-color: #CCE7F5;
@@ -94,7 +94,10 @@ dl, ol, ul {
 .copyright a {
     color: #2ca8ff;
 }
-.item img{    border-radius: 50%;}
+.item img{    
+	border-radius: 50%;
+	border: 5px solid #ddd;		
+}
 .icon-top i.fa.fa-twitter {
     color: #fff;
     margin-right: 50px;
@@ -115,4 +118,13 @@ dl, ol, ul {
 }
 .carousel-inner {
     text-align: center;
+}
+.carousel-inner {
+    padding: 75px;
+}
+.carousel-testimonial-caption {
+    padding-top: 35px;
+}
+.carousel-inner h1 {
+    margin-bottom: 70px;
 }
